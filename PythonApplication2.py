@@ -13,22 +13,4 @@ while p>0:
         continue
     if sõna==salasõna:
         print("Huraa!")
-        break
-    else:
-        print("Proovi uuesti!")
-        tulemus=""
-        i=0
-        while i<k:
-            täht=sõna[i]
-            if täht==salasõna[i]:
-                tulemus+=f"[{täht}]"
-            elif täht in salasõna:
-                tulemus+=f"[{täht}]"
-            else:
-                 tulemus+=f"[{täht}]"
-                 i+=1
-                 print(tulemus)
-                 k-=1
-                 if k==0:
-                   print(f"Kahjuks kaotasid! Õige sõna oli: {salasõna}")
-
+      
